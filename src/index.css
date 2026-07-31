@@ -1,0 +1,10 @@
+@import "tailwindcss";
+/* Custom CSS / Tailwind config-il add cheyyan: */
+@keyframes marquee-slow {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee-slow {
+  animation: marquee-slow 60s linear infinite;
+}
