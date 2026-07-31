@@ -20,15 +20,6 @@ import highbreath from "../icons/breath.svg";
 import insulation from "../icons/insulation.svg";
 
 // --- TYPES & DATA ---
-interface ProductCardProps {
-  id: string;
-  title: string;
-  tech: string;
-  feature: string;
-  description: string;
-  image: string;
-  path: string;
-}
 
 const SPEC_BADGES = [
   { icon: highbreath, label: "High breathability" },
@@ -53,7 +44,6 @@ export default function Vapora() {
   const heroRef = useRef<HTMLDivElement>(null);
   const motionSectionRef = useRef<HTMLDivElement>(null);
   const lastScrollY = useRef(0);
-  const [scrollDirection, setScrollDirection] = useState<"up" | "down">("down");
   const [pastHero, setPastHero] = useState(false);
   const [reachedMotionSection, setReachedMotionSection] = useState(false);
 
@@ -71,7 +61,6 @@ export default function Vapora() {
   useEffect(() => {
     const handleScroll = () => {
       const currentY = window.scrollY;
-      setScrollDirection(currentY > lastScrollY.current ? "down" : "up");
       lastScrollY.current = currentY;
 
       if (heroRef.current) {

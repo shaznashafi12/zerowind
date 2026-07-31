@@ -8,10 +8,6 @@ import windprotectionIcon from "../icons/windprotection.svg";
 import breathIcon from "../icons/breath.svg";
 import thermoreIcon from "../icons/thermore.svg";
 
-const headingLines = [
-  ["Contact", "us", "for", "information", "on", "this"],
-  ["product"],
-];
 
 const container: Variants = {
   hidden: {},

@@ -75,7 +75,6 @@ export default function Motion() {
   const heroRef = useRef<HTMLDivElement>(null);
   const motionSectionRef = useRef<HTMLDivElement>(null);
   const lastScrollY = useRef(0);
-  const [scrollDirection, setScrollDirection] = useState<"up" | "down">("down");
   const [pastHero, setPastHero] = useState(false);
   const [reachedMotionSection, setReachedMotionSection] = useState(false);
 
@@ -93,7 +92,6 @@ export default function Motion() {
   useEffect(() => {
     const handleScroll = () => {
       const currentY = window.scrollY;
-      setScrollDirection(currentY > lastScrollY.current ? "down" : "up");
       lastScrollY.current = currentY;
 
       if (heroRef.current) {
