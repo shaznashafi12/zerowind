@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useMotionValue, useSpring } from 'framer-motion';
-import { Plus, ChevronLeft, ChevronRight, Mail, Send, Check } from 'lucide-react';
+import { Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 // --- IMPORT LOCAL WEBP IMAGES ---
 import fitImg from "../images/fit.webp";
