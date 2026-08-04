@@ -3,7 +3,6 @@ import type { Variants } from "framer-motion";
 import type { ReactNode } from "react";
 import img1 from "../images/skin.webp";
 
-// --- CUSTOM SPEC ICONS ---
 import windprotectionIcon from "../icons/windprotection.svg";
 import bulkIcon from "../icons/bulk.svg";
 import strengthIcon from "../icons/strength.svg";

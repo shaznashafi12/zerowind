@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import type { Variants } from "framer-motion";
 import type { ReactNode } from "react";
 import img1 from "../images/grandprix.webp";
-// --- CUSTOM SPEC ICONS (same assets used on the Home page) ---
 import waterproofIcon from "../icons/waterproof.svg";
 import windprotectionIcon from "../icons/windprotection.svg";
 import breathIcon from "../icons/breath.svg";

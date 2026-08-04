@@ -4,7 +4,6 @@ import { Plus, X } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import motionlogo  from "../icons/brave1.svg"
 
-// --- ASSET IMPORTS ---
 const heroBgVideo ='https://res.cloudinary.com/dtzpx46v0/video/upload/v1785513902/blackcloth_ea0iy2.mp4'
 const popupVideo ='https://res.cloudinary.com/dtzpx46v0/video/upload/v1785515906/video_docekl.mp4'
 

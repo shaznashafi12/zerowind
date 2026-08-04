@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import type { Variants } from "framer-motion";
 import type { ReactNode } from "react";
 import img1 from "../images/teampest.webp";
-// --- CUSTOM SPEC ICONS ---
 import windprotectionIcon from "../icons/windprotection.svg";
 import breathIcon from "../icons/breath.svg";
 import thermoreIcon from "../icons/thermore.svg";

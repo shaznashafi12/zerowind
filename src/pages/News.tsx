@@ -8,7 +8,6 @@ const newsvideo ='https://res.cloudinary.com/dtzpx46v0/video/upload/v1785514507/
 export const News: React.FC = () => {
   const [searchParams] = useSearchParams();
 
-  // Read category from URL (?category=Events) if present, else default to 'All'
   const categoryFromUrl = searchParams.get('category') as
     | 'All' | 'Products' | 'Events' | 'Sponsorships' | null;
   const validCategories = ['All', 'Products', 'Events', 'Sponsorships'];
