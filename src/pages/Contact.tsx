@@ -24,7 +24,7 @@ export const Contacts: React.FC = () => {
   };
 
   return (
-    <div className="w-full  min-h-[calc(100vh-100px)] bg-[#212121] text-white px-8 md:px-16 py-12 md:py-20 flex justify-center">
+    <div className="w-full  min-h-[calc(100vh-100px)] bg-[#272727] text-white px-8 md:px-16 py-12 md:py-20 flex justify-center">
       <div className="w-full pt-32 max-w-5xl space-y-12">
         
         {/* Main Title */}
